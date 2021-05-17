@@ -9,7 +9,7 @@ Created on Sun May 16 11:30:50 2021
 from flask import Flask, render_template, request
 import numpy as np
 import tensorflow as tf
-import cv2
+from cv2 import *
 
 app = Flask(__name__, template_folder="template")
 
